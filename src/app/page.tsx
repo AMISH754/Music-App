@@ -4,8 +4,8 @@ import HeroSection from "@/components/HeroSection";
 import { Spotlight } from '@/components/ui/Spotlight'
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
-
-
+import TestimonialCards from "@/components/TestimonialCards";
+import UpcomingWebinar from "@/components/UpcomingWebinar";
 export default function Home() {
   return (
      <main className="min-h-screen text-2xl text-white bg-black/[0.96]  antialiased bg-grid-white/[0.02] pt-36">
@@ -15,7 +15,9 @@ export default function Home() {
       />
       <HeroSection/> 
       <FeaturedCourses/>
-      <WhyChooseUs/>    
+      <WhyChooseUs/>  
+      <TestimonialCards/>  
+      <UpcomingWebinar/>
       </main>
   );
 }
